@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sico using all HTML and CSS concepts learned so far.">
+  <title>Sico's Dev World</title>
+  <base href="https://example.com/">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to <abbr title="HyperText Markup Language">HTML</abbr> & CSS World</h1>
+    <p><q>Build it with Code</q> – <cite>Sico</cite></p>
+  </header>
+
+  <nav class="clearfix">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="clearfix">
+    <img src="https://via.placeholder.com/150" alt="Sico Picture">
+    <h2>About Me</h2>
+    <p>Hey, I'm <b>Sico</b> — a <mark>web developer</mark> who loves <i>building things</i> and exploring <u>new tech</u>.</p>
+    <p>Favorite variable: <var>x</var></p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <picture>
+      <source srcset="https://via.placeholder.com/400" media="(min-width: 800px)">
+      <img src="https://via.placeholder.com/200" alt="Responsive Image">
+    </picture>
+    <map name="imagemap">
+      <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Clickable Area">
+    </map>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Say something..."></textarea>
+
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color">
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sico. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

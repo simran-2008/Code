@@ -1,0 +1,21 @@
+p {
+    background-color: lightslategrey;
+}
+
+.block {
+    background-color: lightblue;
+
+}
+
+.inline {
+    background-color: lightgreen;
+
+}
+
+.inline2 {
+    background-color: rgb(205, 255, 130);
+
+}
+body {
+    background-color: lightgrey;
+}

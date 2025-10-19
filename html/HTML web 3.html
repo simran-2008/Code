@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ultimate HTML Project covering every tag and attribute.">
+  <meta name="author" content="Sico">
+  <meta name="keywords" content="HTML, Tags, Attributes, Project">
+  <title>Ultimate HTML Project</title>
+  <base href="https://example.com/">
+  <link rel="stylesheet" href="style.css" >
+</head>
+
+<body  >
+  <!-- HEADER SECTION -->
+  <header>
+    <h1>Welcome to the <abbr title="HyperText Markup Language">HTML</abbr> </h1>
+    <p><q>Practice makes perfect.</q> – <cite>Unknown Genius</cite></p>
+    <address>
+      Written by <a href="mailto:sico@example.com">Sico</a>, India.
+    </address>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <!-- MAIN SECTION -->
+  <main>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I am <b>Sico</b>. I <i>love coding</i> and <u>building websites</u>.</p>
+      <p>H<sub>2</sub>O and x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup> are examples of <mark>subscript</mark> and <mark>superscript</mark>.</p>
+      <p><ins>Inserted text</ins> and <del>deleted text</del> show document edits.</p>
+      <p><bdo dir="rtl">Right-to-left text example.</bdo></p>
+      <p>Definition example: <dfn>HTML</dfn> is a markup language.</p>
+      <p>Keyboard: Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+      <p>Variable example: <var>x</var> = 10;</p>
+
+      <figure>
+        <img src="https://via.placeholder.com/200" alt="Profile Picture" width="200">
+        <figcaption>This is me at work.</figcaption>
+      </figure>
+    </section>
+
+    <hr>
+
+    <!-- BLOG SECTION -->
+    <article id="blog">
+      <h2>Latest Blog Post</h2>
+      <p>Here’s some code: <code>console.log('Hello World');</code></p>
+      <time datetime="2025-07-20">Published on July 20, 2025</time>
+      <aside>
+        <p>Fun fact: <bdi>HTML</bdi> supports both <bdo dir="ltr">LTR</bdo> and <bdo dir="rtl">RTL</bdo> text.</p>
+      </aside>
+    </article>
+
+    <hr>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <picture usemap="#imagemap">
+        <source srcset="https://th.bing.com/th/id/OIP.YYcil-4PFTmdV94TJhULYAHaEo?w=300&h=187&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" media="(max-width: 800px)">
+        <img src="https://th.bing.com/th/id/OIP.K6dilm1ojG_FDlljBG59OgHaNK?w=115&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3">
+      </picture>
+
+      <map name="imagemap">
+        <area shape="rect" coords="34,44,270,350" href="https://www.porsche.com/middle-east/_india_/?cs_redirect=1" alt="Clickable Area">
+      </map>
+    </section>
+
+    <hr>
+
+    <!-- TABLE SECTION -->
+    <section>
+      <h2>Skills Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td rowspan="2">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Learning Never Ends</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- MEDIA SECTION -->
+    <section>
+      <h2>Media</h2>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/watch?v=FfOwqhckUH8" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>      
+<audio controls>
+        <source src="sample.mp3" type="audio/mp3">
+        Your browser does not support audio.
+      </audio>
+
+      <video width="320" height="240" controls>
+        <source src="vid.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+
+      <progress value="70" max="100"></progress> 70% Complete
+      <meter value="0.8">80%</meter>
+    </section>
+
+    <hr>
+
+    <!-- FORM SECTION -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob"><br><br>
+
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color" name="color"><br><br>
+
+          <label for="range">Skill Level:</label>
+          <input type="range" id="range" name="range" min="0" max="10"><br><br>
+
+          <label for="country">Country:</label>
+          <input list="countries" id="country" name="country">
+          <datalist id="countries">
+            <option value="India">
+            <option value="USA">
+            <option value="UK">
+          </datalist><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" placeholder="Type here..."></textarea><br><br>
+
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+
+    <!-- INTERACTIVE TAGS -->
+    <details open>
+      <summary>Read More About My Journey</summary>
+      <p>I started coding at 16, building simple websites and learning deeply.</p>
+    </details>
+  </main>
+
+  <hr>
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+    <p><small>All rights reserved.</small></p>
+    <noscript>JavaScript is disabled in your browser!</noscript>
+  </footer>
+</body>
+</html>
