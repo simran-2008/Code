@@ -1,0 +1,344 @@
+ *,
+ *::after,
+ *::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .handlee-regular {
+     font-family: "Handlee", cursive;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+
+
+ body {
+        margin: 0;
+        padding: 0;
+    
+    position: relative;
+    background-color: #131316;
+ }
+
+ header {
+     z-index: 1;
+     position: relative;
+     top: 0px;
+
+ }
+
+ h1 {
+
+     margin-left: 25px;
+     color: #ffffff;
+     font-family: "Handlee", cursive;
+     font-size: 50px;
+     transition: all 0.3s ease-in-out;
+ }
+
+ 
+
+ .Header-nav {
+     display: flex;
+     overflow: hidden;
+     padding: 0px 65px 0px 15px;
+     height: 15vh;
+     background-color: #9554ff;
+     border-bottom: #ffffff solid 7px;
+     border-top: 0;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ nav ul {
+     width: 100%;
+     height: 100%;
+     gap: 40px;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: right;
+ }
+
+
+ nav>ul>li>a {
+     font-size: 25px;
+     font-family: 'Noto Sans', sans-serif;
+     text-decoration: none;
+     color: #ffffff;
+     transition: all 0.35s ease-in-out;
+ }
+
+ nav>ul>li>a:hover {
+     color: #000000;
+     text-shadow: 0px 25px 10px #000000;
+
+ }
+
+ .logo {
+     padding-bottom: 50px;
+     padding-top: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+
+ }
+
+ .Head-Logo {
+     width: 80px;
+     height: auto;
+     transition: all 0.3s ease-in-out;
+ }
+
+ .Head-Logo:hover {
+     transform: scale(1.2);
+
+ }
+
+ .AIR-body {
+
+     overflow: hidden;
+     border-radius: 20px;
+     height: 500px;
+     margin: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #474747;
+     transition: all 0.6s ease-in-out;
+ }
+
+ .AIR-body:hover {
+     box-shadow: 0px 0px 80px #ece0ff;
+
+ }
+
+ .Products {
+     display: flex;
+     width: 100%;
+     height: 100%;
+
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 190px;
+     padding-right: 190px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ .pods-div {
+     height: 50vh;
+     width: 40vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     background-color: #474747;
+     transition: all 0.4s ease-in-out;
+
+
+ }
+
+ .iphone-div {
+     height: 50vh;
+     width: 40vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     background-color: #474747;
+     transition: all 0.4s ease-in-out;
+
+ }
+
+ .pods-div:hover,
+ .iphone-div:hover {
+     transform: scale(1.2);
+
+ }
+
+ .Products:has(.pods:hover)+.pic-info h2:nth-child(1) {
+     color: #ffffff;
+
+ }
+
+ .Products:has(.iphone:hover)+.pic-info h2:nth-child(2) {
+     color: #ffffff;
+ }
+
+ .pic-info {
+     width: 150vh;
+     height: 15vh;
+     top: 76vh;
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 195px;
+     padding-right: 185px;
+ }
+
+ h2 {
+     font-weight: 20px;
+     font-size: 50px;
+     font-family: 'handlee', sans-serif;
+     color: #47474700;
+     transition: all 0.4s ease-in-out;
+    text-align: justify;
+    text-align: center;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .AIR-info {
+     margin: 100px;
+     background-color: #ffffff00;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding-bottom: 50px;
+     padding-left: 90px;
+     padding-right: 90px;
+
+     transition: all 0.4s ease-in-out;
+
+ }
+
+ .AIR-info>h2 {
+     margin-bottom: 90px;
+     display: inline-block;
+     font-size: 80px;
+     text-align: center !important;
+     color: #ffffff;
+ }
+
+ .P {
+    position: relative;
+     text-shadow: 0px 0px 250px #ffffff;
+     color: #ffffff;
+     font-family: 'Noto Sans', sans-serif;
+     text-align: center;
+     font-size: 50px;
+     font-weight: 500;
+     line-height: 5;
+     animation-name: mation;
+     animation-timeline: view();
+     
+    }
+
+
+ @keyframes mation {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+        
+    }
+    50%{
+        filter: blur(0px);
+        opacity: 1;
+        
+    }
+    100% {
+        filter: blur(5px);
+        opacity: 0;
+        
+    }
+
+
+
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .AIR-logo {
+    z-index: 10;
+     position: fixed;
+     bottom: 5px;
+     right: 1px;
+     display: flex;
+     justify-content: right;
+     align-items: center;
+     overflow: hidden;
+
+ }
+
+ .AIR-logo img {
+     width: 85px;
+     height: auto;
+     transition: all 0.3s ease-in-out;
+ }
+
+ footer {
+    position: relative;
+    bottom: 0px;
+    border-top: #ffffff solid 7px;
+     justify-content: left;
+     align-items: center;
+     background-color: #9554ff;
+     color: #ffffff;
+     text-align: center;
+     display: flex;
+     height: 12.2vh;
+     bottom: 0;
+     width: 100%;
+     font-family: 'Noto Sans', sans-serif;
+ }
+
+ footer p {
+     margin-left: 20px;
+     font-size: 30px;
+ }
+ .fot {
+    position: relative;
+    height: max-content;
+ }
